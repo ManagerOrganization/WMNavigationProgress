@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6A5070318E0CE240050F3B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6A5070218E0CE240050F3B4 /* Foundation.framework */; };
+		E6A5072E18E0CE400050F3B4 /* UINavigationItem+WMProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A5072918E0CE400050F3B4 /* UINavigationItem+WMProgress.m */; };
+		E6A5072F18E0CE400050F3B4 /* WMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A5072B18E0CE400050F3B4 /* WMNavigationController.m */; };
+		E6A5073018E0CE400050F3B4 /* WMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A5072D18E0CE400050F3B4 /* WMProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E6A506FD18E0CE240050F3B4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E6A506FF18E0CE240050F3B4 /* libWMNavigationProgress.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWMNavigationProgress.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6A5070218E0CE240050F3B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E6A5070618E0CE240050F3B4 /* WMNavigationProgress-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WMNavigationProgress-Prefix.pch"; sourceTree = "<group>"; };
+		E6A5071018E0CE240050F3B4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E6A5071318E0CE240050F3B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E6A5072818E0CE400050F3B4 /* UINavigationItem+WMProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+WMProgress.h"; sourceTree = "<group>"; };
+		E6A5072918E0CE400050F3B4 /* UINavigationItem+WMProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+WMProgress.m"; sourceTree = "<group>"; };
+		E6A5072A18E0CE400050F3B4 /* WMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMNavigationController.h; sourceTree = "<group>"; };
+		E6A5072B18E0CE400050F3B4 /* WMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMNavigationController.m; sourceTree = "<group>"; };
+		E6A5072C18E0CE400050F3B4 /* WMProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMProgressView.h; sourceTree = "<group>"; };
+		E6A5072D18E0CE400050F3B4 /* WMProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMProgressView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6A506FC18E0CE240050F3B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6A5070318E0CE240050F3B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6A506F618E0CE240050F3B4 = {
+			isa = PBXGroup;
+			children = (
+				E6A5070418E0CE240050F3B4 /* WMNavigationProgress */,
+				E6A5070118E0CE240050F3B4 /* Frameworks */,
+				E6A5070018E0CE240050F3B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6A5070018E0CE240050F3B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6A506FF18E0CE240050F3B4 /* libWMNavigationProgress.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6A5070118E0CE240050F3B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6A5070218E0CE240050F3B4 /* Foundation.framework */,
+				E6A5071018E0CE240050F3B4 /* XCTest.framework */,
+				E6A5071318E0CE240050F3B4 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6A5070418E0CE240050F3B4 /* WMNavigationProgress */ = {
+			isa = PBXGroup;
+			children = (
+				E6A5072818E0CE400050F3B4 /* UINavigationItem+WMProgress.h */,
+				E6A5072918E0CE400050F3B4 /* UINavigationItem+WMProgress.m */,
+				E6A5072A18E0CE400050F3B4 /* WMNavigationController.h */,
+				E6A5072B18E0CE400050F3B4 /* WMNavigationController.m */,
+				E6A5072C18E0CE400050F3B4 /* WMProgressView.h */,
+				E6A5072D18E0CE400050F3B4 /* WMProgressView.m */,
+				E6A5070518E0CE240050F3B4 /* Supporting Files */,
+			);
+			path = WMNavigationProgress;
+			sourceTree = "<group>";
+		};
+		E6A5070518E0CE240050F3B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6A5070618E0CE240050F3B4 /* WMNavigationProgress-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6A506FE18E0CE240050F3B4 /* WMNavigationProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6A5072218E0CE240050F3B4 /* Build configuration list for PBXNativeTarget "WMNavigationProgress" */;
+			buildPhases = (
+				E6A506FB18E0CE240050F3B4 /* Sources */,
+				E6A506FC18E0CE240050F3B4 /* Frameworks */,
+				E6A506FD18E0CE240050F3B4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WMNavigationProgress;
+			productName = WMNavigationProgress;
+			productReference = E6A506FF18E0CE240050F3B4 /* libWMNavigationProgress.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6A506F718E0CE240050F3B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Willem Mattelaer";
+			};
+			buildConfigurationList = E6A506FA18E0CE240050F3B4 /* Build configuration list for PBXProject "WMNavigationProgress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E6A506F618E0CE240050F3B4;
+			productRefGroup = E6A5070018E0CE240050F3B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6A506FE18E0CE240050F3B4 /* WMNavigationProgress */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6A506FB18E0CE240050F3B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6A5072F18E0CE400050F3B4 /* WMNavigationController.m in Sources */,
+				E6A5072E18E0CE400050F3B4 /* UINavigationItem+WMProgress.m in Sources */,
+				E6A5073018E0CE400050F3B4 /* WMProgressView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E6A5072018E0CE240050F3B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E6A5072118E0CE240050F3B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6A5072318E0CE240050F3B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/WMNavigationProgress.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WMNavigationProgress/WMNavigationProgress-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E6A5072418E0CE240050F3B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/WMNavigationProgress.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WMNavigationProgress/WMNavigationProgress-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6A506FA18E0CE240050F3B4 /* Build configuration list for PBXProject "WMNavigationProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6A5072018E0CE240050F3B4 /* Debug */,
+				E6A5072118E0CE240050F3B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6A5072218E0CE240050F3B4 /* Build configuration list for PBXNativeTarget "WMNavigationProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6A5072318E0CE240050F3B4 /* Debug */,
+				E6A5072418E0CE240050F3B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6A506F718E0CE240050F3B4 /* Project object */;
+}
